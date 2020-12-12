@@ -6,6 +6,34 @@ body {
   font-family: 'Abel', sans-serif;
 }
 
+main {
+  padding: 0 20px;
+}
+
 a {
   color: rgb(241 235 167);
+}
+
+#home-img {
+  background-image: url('/images/biografia_2.jpg');
+  background-size: cover;
+}
+
+#about-img {
+  background-image: url('/images/biografia_3.jpg');
+  background-size: cover;
+}
+
+#works-img {
+  background-image: url('/images/biografia_4.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  padding: 200px 50px;
+  text-align: center;
+  color: rgb(250, 246, 0);
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 30px;
 }

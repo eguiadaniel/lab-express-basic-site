@@ -3,86 +3,146 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>David Lynch Info SIte</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Abel:400&amp;subset=latin"
+      type="text/css"
+      media="all"
+    />
   </head>
   <body>
     <header>
-      <img src="/images/cool-cat.jpg" />
-      <h1>Header</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">David Lynch Info</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/About"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Works"
+                  >Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Gallery</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="about-img" class="header-img">
+        <h1>About</h1>
+        <!--<img src="/images/home-banner.jpg" />-->
+      </div>
     </header>
-
-    <nav>
-      <ul>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/works">Works</a></li>
-        <li><a href="/gallery">Gallery</a></li>
-      </ul>
-
-      <!-- A Search form is another commmon non-linear way to navigate through a website. -->
-
-      <form>
-        <input type="search" name="q" placeholder="Search query" />
-        <input type="submit" value="Go!" />
-      </form>
-    </nav>
     <!-- Here is our page's main content -->
     <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <article>
+              <h2>Article heading</h2>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec
+                a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula
+                as quam viverra nec consectetur ant hendrerit. Donec et mollis
+                dolor. Praesent et diam eget libero egestas mattis sit amet
+                vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia
+                consectetur.
+              </p>
+
+              <h3>Subsection</h3>
+
+              <p>
+                Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut
+                gravida lorem. Ut turpis felis, pulvinar a semper sed,
+                adipiscing id dolor.
+              </p>
+
+              <p>
+                Pelientesque auctor nisi id magna consequat sagittis. Curabitur
+                dapibus, enim sit amet elit pharetra tincidunt feugiat nist
+                imperdiet. Ut convallis libero in urna ultrices accumsan. Donec
+                sed odio eros.
+              </p>
+
+              <h3>Another subsection</h3>
+
+              <p>
+                Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus.
+                Cum soclis natoque penatibus et manis dis parturient montes,
+                nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris
+                vitae nisi at sem facilisis semper ac in est.
+              </p>
+
+              <p>
+                Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
+                tristique vitae sagittis vel odio. Maecenas convallis
+                ullamcorper ultricied. Curabitur ornare, ligula semper
+                consectetur sagittis, nisi diam iaculis velit, is fringille sem
+                nunc vet mi.
+              </p>
+            </article>
+          </div>
+          <div class="col-sm">
+            <aside>
+              <h2>Related</h2>
+
+              <ul>
+                <li><a href="#">Oh I do like to be beside the seaside</a></li>
+                <li><a href="#">Oh I do like to be beside the sea</a></li>
+                <li><a href="#">Although in the North of England</a></li>
+                <li><a href="#">It never stops raining</a></li>
+                <li><a href="#">Oh well...</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
       <!-- It contains an article -->
-      <article>
-        <h2>Article heading</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
-          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
-          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
-          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-        </p>
-
-        <h3>Subsection</h3>
-
-        <p>
-          Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem.
-          Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.
-        </p>
-
-        <p>
-          Pelientesque auctor nisi id magna consequat sagittis. Curabitur
-          dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
-          Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.
-        </p>
-
-        <h3>Another subsection</h3>
-
-        <p>
-          Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum
-          soclis natoque penatibus et manis dis parturient montes, nascetur
-          ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-          facilisis semper ac in est.
-        </p>
-
-        <p>
-          Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
-          tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
-          ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi
-          diam iaculis velit, is fringille sem nunc vet mi.
-        </p>
-      </article>
 
       <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <h2>Related</h2>
-
-        <ul>
-          <li><a href="#">Oh I do like to be beside the seaside</a></li>
-          <li><a href="#">Oh I do like to be beside the sea</a></li>
-          <li><a href="#">Although in the North of England</a></li>
-          <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Oh well...</a></li>
-        </ul>
-      </aside>
     </main>
 
     <!-- And here is our main footer that is used across all the pages of our website -->
