@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Abel:400&amp;subset=latin"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body>
+     {{>navbar}}
+     {{>header}}
+    <!-- Here is our page's main content -->
+      {{{body}}}
+    
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+  </body>
+</html>
