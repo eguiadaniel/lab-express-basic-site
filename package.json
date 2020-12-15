@@ -19,6 +19,7 @@
   "homepage": "https://github.com/eguiadaniel/lab-express-basic-site#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "handlebars": "^4.7.6"
+local
+    "hbs": "^4.1.1"
   }
 }
